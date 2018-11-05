@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background: url(./photo/bcg1.jpg);
+    background-size: 100% auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    padding-top: 40px;
+}
+
+.todo {
+    width: 60%;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.todo-form {
+    padding: 25px;
+}
+
+.todo-form-row {
+    overflow: hidden;
+}
+
+.todo-form-label {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.todo-form-message {
+    padding: 16px;
+    height: 5vw;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.todo-form-button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 10px;
+    background: #5B789B;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    transition: 0.4s;
+    cursor: pointer;
+    float: right;
+}
+
+.todo-form-button:hover {
+    background: whitesmoke;
+    color: #5B789B;
+    border: 0.8px solid #5B789B;
+}
+
+.todo-search {
+    width: 100%;
+    margin: 5px auto;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background: rgb(109, 97, 87, 0.5);
+}
+
+.todo-search-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-list-search-form {
+    width: 60%;
+}
+
+.todo-list-search {
+    border: 1px solid rgb(218, 216, 216);
+    padding: 10px;
+    width: 100%;
+}
+
+.todo-search-title {
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.todo-element {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 5px solid rgb(218, 216, 216);
+    margin-top: 28px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.todo-element-bar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+.todo-element-date {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.todo-element-delete {
+    color: #5B789B;
+    border: 0;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    transition: 0.4s all;
+}
+
+.todo-element-delete .fas {
+    pointer-events: none;
+}
+
+.todo-element-delete:hover {
+    color: rgb(221, 16, 16);
+}
+
+.todo-element-text {
+    color: white;
+    font-size: 19px;
+}
+
+footer {
+    margin: 0 auto;
+    font-family: 'Pacifico', cursive;
+    width: 60%;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 1px solid rgb(218, 216, 216);
+}

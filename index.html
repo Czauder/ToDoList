@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Pacifico&amp;subset=latin-ext" rel="stylesheet">
+    <title>ToDo list by Czauder </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ToDo list</h1>
+    <div class="todo">
+        <form class="todo-form">
+            <div class="todo-form-row">
+                <label class="todo-form-label" for="todoMessage">My tasks:</label>
+                <textarea class="todo-form-message" name="todoMessage" id="todoMessage"></textarea>
+            </div>
+            <div class="todo-form-row">
+                <button type="submit" class="button todo-form-button">Add task!</button>
+            </div>
+        </form>
+
+        <section class="todo-search">
+            <header class="todo-search-header">
+                <h2 class="todo-search-title">
+                    search task
+                </h2>
+                <form class="todo-list-search-form">
+                    <input type="search" id="todoSearch" class="todo-list-search">
+                </form>
+            </header>
+
+
+            <div class="todo-list" id="todo-list">
+
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>by Czauder &#169 2018</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
