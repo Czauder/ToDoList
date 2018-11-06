@@ -49,6 +49,8 @@ h1 {
 }
 
 .todo-form-message {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
     padding: 16px;
     height: 5vw;
     width: 100%;

@@ -80,3 +80,16 @@ todoSearch.addEventListener('input', function () {
     });
 
 });
+
+
+// addTask enter
+const textarea = document.getElementById("todoMessage");
+
+const enter = (e) => {
+    if (e.keyCode === 13) {
+        addTask(e)
+    } else return
+    console.log(e.keyCode)
+}
+
+textarea.addEventListener('keydown', enter)
