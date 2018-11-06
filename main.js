@@ -64,3 +64,19 @@ toDoList.addEventListener('click', function (e) {
 });
 
 // search
+todoSearch.addEventListener('input', function () {
+    const value = this.value;
+    const items = toDoList.querySelectorAll('.todo-element');
+
+
+    [].forEach.call(items, function (item) {
+        const text = item.querySelector('.todo-element-text').innerText;
+
+        if (text.indexOf(value) !== -1) {
+            item.style.setProperty('display', "");
+        } else {
+            item.style.setProperty('display', 'none');
+        }
+    });
+
+});
