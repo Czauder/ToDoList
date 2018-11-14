@@ -78,6 +78,11 @@ h1 {
     border: 0.8px solid #5B789B;
 }
 
+button:focus {
+    outline: none;
+}
+
+
 .todo-search {
     width: 100%;
     margin: 5px auto;
