@@ -22,7 +22,7 @@ const addTask = (e) => {
     const toDoDate = document.createElement('div');
     toDoDate.classList.add('todo-element-bar');
     const date = new Date();
-    const dateText = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear() + ' godz.: ' + date.getHours() + ':' + date.getMinutes();
+    const dateText = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear() + '  ' + date.getHours() + ':' + date.getMinutes();
     toDoDate.innerText = dateText;
 
 
