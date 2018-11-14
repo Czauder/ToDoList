@@ -1,6 +1,6 @@
 # ToDoList
 I created app ToDoList with panel to search task for learning purpose.
-g.recordit.co/SPAWpRlCR2.gif
+.\g.recordit.co/SPAWpRlCR2.gif
 ## Technologies
 * HTML 
 * CSS
